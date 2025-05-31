@@ -3,71 +3,37 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Portföyüm | KEREM</title>
+  <title>Kerem Oyunları</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header>
-    <div class="container">
-      <h1>KEREM TERZİ</h1>
-      <nav>
-        <ul>
-          <li><a href="#about">Hakkımda</a></li>
-          <li><a href="#projects">Projeler</a></li>
-          <li><a href="#contact">İletişim</a></li>
-        </ul>
-      </nav>
-    </div>
+    <h1>🎮 Kerem Oyun Sitesi</h1>
+    <p>Tarayıcında hemen oyna!</p>
   </header>
 
-  <section class="hero">
-    <div class="container">
-      <h2>Merhaba, ben <span>Adınız</span></h2>
-      <p>Web geliştiricisi, mobil uygulama geliştirici ve teknoloji tutkunu.</p>
-    </div>
-  </section>
-
-  <section id="about" class="section">
-    <div class="container">
-      <h2>Hakkımda</h2>
-      <p>AMATÖR FUTBOLCUYUM.</p>
-    </div>
-  </section>
-
-  <section id="projects" class="section">
-    <div class="container">
-      <h2>Projeler</h2>
-      <div class="project-grid">
-        <div class="project-card">
-          <h3>Proje 1</h3>
-          <p>Kazandığım kuparlı burda paylaşacağım.</p>
-        </div>
-        <div class="project-card">
-          <h3>Proje 2</h3>
-          <p>Oynağım Maçlar.</p>
-        </div>
+  <main class="container">
+    <section class="game-list">
+      <div class="game-card">
+        <h2>Uzaylı Vur</h2>
+        <p>Uzaylıları vur, skor yap!</p>
+        <a href="oyunlar/uzayli.html">Oyna</a>
       </div>
-    </div>
-  </section>
-
-  <section id="contact" class="section">
-    <div class="container">
-      <h2>İletişim</h2>
-      <form id="contact-form">
-        <input type="text" name="name" placeholder="Adınız" required />
-        <input type="email" name="email" placeholder="E-posta" required />
-        <textarea name="message" placeholder="Mesajınız" required></textarea>
-        <button type="submit">Gönder</button>
-      </form>
-    </div>
-  </section>
+      <div class="game-card">
+        <h2>Yılan Oyunu</h2>
+        <p>Klasik Snake oyunu tarayıcında.</p>
+        <a href="oyunlar/yilan.html">Oyna</a>
+      </div>
+      <div class="game-card">
+        <h2>Zıplayan Kutu</h2>
+        <p>Engelleri atla, hayatta kal!</p>
+        <a href="oyunlar/zipla.html">Oyna</a>
+      </div>
+    </section>
+  </main>
 
   <footer>
-    <div class="container">
-      <p>© 2025 Kerem Terzi. Tüm hakları saklıdır.</p>
-    </div>
+    <p>© 2025 Kerem Gaming. Tüm hakları saklıdır.</p>
   </footer>
-
-  <script src="script.js"></script>
 </body>
 </html>
